@@ -1,0 +1,11 @@
+POST localhost:8080/user/create
+Content-Type: application/json
+
+{
+  "name"      : "hksg",
+  "email"     : "hksg@owo.id",
+  "password"  : "123abc",
+  "role"      : "clown"
+}
+
+###
