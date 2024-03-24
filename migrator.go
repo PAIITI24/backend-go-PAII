@@ -14,6 +14,9 @@ func main() {
 		&models.Obat{},
 		&models.KategoriObat{},
 		&models.ResObatKategoriObat{},
+		&models.Produk{},
+		&models.KategoriProduk{},
+		&models.ResProdukKategoriProduk{},
 	)
 
 	if err != nil {
